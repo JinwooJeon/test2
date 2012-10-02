@@ -1,0 +1,22 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Layout02"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <ViewFlipper
+        android:id="@+id/flipper"
+        android:layout_marginTop="60dp" 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+    </ViewFlipper>
+	
+     <LinearLayout 
+    	android:id="@+id/buttonLayout"  
+	    android:orientation="horizontal"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_centerInParent="true"
+	    android:layout_alignParentBottom="true"
+	    >
+    </LinearLayout>	
+</RelativeLayout>

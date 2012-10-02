@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:background="#ffffff" >
+
+        <Button
+            android:id="@+id/backButton"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/backbutton"
+            android:padding="0dp" />
+
+        <TextView
+			android:id="@+id/myDressTitle"
+            android:layout_width="240dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="입어 본 드레스"
+            android:textColor="#000000" />
+    </LinearLayout>
+	<FrameLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent">
+	    
+	    <ImageView
+	        android:id="@+id/dressPhoto"
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"/>
+	    <ImageView
+	        android:id="@+id/originalDressPhoto"
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"/>
+	    <TextView
+	        android:id="@+id/filter1"
+	        android:layout_width="48dp"
+	        android:layout_height="48dp"
+	        android:background="@drawable/silhouette1off"
+	        android:layout_margin="20dp"
+	        android:layout_gravity="bottom"
+	        android:textColor="#000000"
+	        android:gravity="center"/>
+	    <TextView
+	        android:id="@+id/filter2"
+	        android:layout_width="48dp"
+	        android:layout_height="48dp"
+	        android:background="@drawable/colorwhite"
+	        android:layout_marginLeft="78dp"
+	        android:layout_marginBottom="20dp"
+	        android:layout_gravity="bottom"
+	        android:text=""/>
+	    <TextView
+	        android:id="@+id/filter3"
+	        android:layout_width="120dp"
+	        android:layout_height="48dp"
+	        android:background="#00ffffff"
+	        android:layout_marginLeft="136dp"
+	        android:layout_marginBottom="20dp"
+	        android:layout_gravity="bottom"
+	        android:textColor="#000000"
+	        android:gravity="center"
+	        android:text="아비가일 드레스"/>
+	</FrameLayout>
+</LinearLayout>

@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:id="@+id/mainGridLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:background="#ffffff" >
+
+            <Button
+                android:id="@+id/leftMenuButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/leftbutton" />
+
+            <ImageView
+                android:layout_width="155dp"
+                android:layout_height="24dp"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_marginLeft="35dp"
+                android:background="@drawable/logo"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/myButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="35dp"
+                android:background="@drawable/mybutton" />
+        </LinearLayout>
+
+        <HorizontalScrollView
+            android:id="@+id/horScrollView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <TableLayout
+                android:layout_width="262dp"
+                android:layout_height="fill_parent" >
+
+                <TableRow android:id="@+id/tableRow1" >
+                </TableRow>
+
+                <TableRow android:id="@+id/tableRow2" >
+                </TableRow>
+
+                <TableRow android:id="@+id/tableRow3" >
+                </TableRow>
+            </TableLayout>
+        </HorizontalScrollView>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/closeMyMenuButton"
+        android:layout_width="60dp"
+        android:layout_height="fill_parent"
+        android:layout_gravity="left"
+        android:background="#00ff0000"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/closeLeftMenuButton"
+        android:layout_width="60dp"
+        android:layout_height="fill_parent"
+        android:layout_gravity="right"
+        android:background="#00ff0000"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/leftMenuLayout"
+        android:layout_width="292dp"
+        android:layout_height="fill_parent"
+        android:layout_gravity="left"
+        android:background="#aaaaaa"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:background="#aaaaaa"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/leftmenutop" />
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scrollbars="@null" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="#000000" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#aaaaaa"
+                    android:orientation="vertical"
+                    android:padding="5dp" >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#aaaaaa"
+                        android:orientation="horizontal" >
+
+                        <ImageView
+                            android:id="@+id/silhouette1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:background="@drawable/silhouette1on" />
+
+                        <ImageView
+                            android:id="@+id/silhouette2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:background="@drawable/silhouette1on" />
+
+                        <ImageView
+                            android:id="@+id/silhouette3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:background="@drawable/silhouette1on" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#aaaaaa"
+                        android:orientation="horizontal" >
+
+                        <ImageView
+                            android:id="@+id/silhouette4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:background="@drawable/silhouette1on" />
+
+                        <ImageView
+                            android:id="@+id/silhouette5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:background="@drawable/silhouette1on" />
+
+                        <ImageView
+                            android:id="@+id/silhouette6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:background="@drawable/silhouette1on" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="1px"
+                    android:background="#000000" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#aaaaaa"
+                    android:orientation="vertical"
+                    android:padding="5dp" >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#aaaaaa"
+                        android:orientation="horizontal" >
+
+                        <ImageView
+                            android:id="@+id/color1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:background="@drawable/colorwhite" />
+
+                        <ImageView
+                            android:id="@+id/color2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:background="@drawable/colorivory" />
+
+                        <ImageView
+                            android:id="@+id/color3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:background="@drawable/coloryellow" />
+
+                        <ImageView
+                            android:id="@+id/color4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:background="@drawable/colorgrey" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#aaaaaa"
+                        android:orientation="horizontal" >
+
+                        <ImageView
+                            android:id="@+id/color5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:background="@drawable/colorblue" />
+
+                        <ImageView
+                            android:id="@+id/color6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:background="@drawable/colorgreen" />
+
+                        <ImageView
+                            android:id="@+id/color7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:background="@drawable/colorpink" />
+
+                        <ImageView
+                            android:id="@+id/color8"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:background="@drawable/colorpurple" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="1px"
+                    android:background="#000000" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#aaaaaa"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#aaaaaa"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="140dp"
+                            android:layout_height="30dp"
+                            android:layout_margin="5dp"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:text="아비가일 드레스"
+                            android:textColor="#000000"
+                            android:textSize="16dp" />
+
+                        <TextView
+                            android:layout_width="120dp"
+                            android:layout_height="30dp"
+                            android:layout_margin="5dp"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:text="찰스박 웨딩"
+                            android:textColor="#000000"
+                            android:textSize="16dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#aaaaaa"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="140dp"
+                            android:layout_height="30dp"
+                            android:layout_margin="5dp"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:text="벨에포크"
+                            android:textColor="#000000"
+                            android:textSize="16dp" />
+
+                        <TextView
+                            android:layout_width="120dp"
+                            android:layout_height="30dp"
+                            android:layout_margin="5dp"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:text="라브라디아"
+                            android:textColor="#000000"
+                            android:textSize="16dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#aaaaaa"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="140dp"
+                            android:layout_height="30dp"
+                            android:layout_margin="5dp"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:text="아뜰리에 레이"
+                            android:textColor="#000000"
+                            android:textSize="16dp" />
+
+                        <TextView
+                            android:layout_width="120dp"
+                            android:layout_height="30dp"
+                            android:layout_margin="5dp"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:text="몽유애"
+                            android:textColor="#000000"
+                            android:textSize="16dp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="1px"
+                    android:background="#000000" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dp"
+                    android:background="#888888"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/leftmenuannoun" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="1px"
+                    android:background="#000000" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dp"
+                    android:background="#888888"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/leftmenufeed" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="1px"
+                    android:background="#000000" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dp"
+                    android:background="#888888"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/leftmenusetting" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="1px"
+                    android:background="#000000" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/myMenuLayout"
+        android:layout_width="292dp"
+        android:layout_height="fill_parent"
+        android:layout_gravity="right"
+        android:background="#aaaaaa"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:background="#aaaaaa"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/rightmenutop"/>
+        </LinearLayout>
+
+        <ExpandableListView
+            android:id="@+id/myPageList"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#aaaaaa"
+            android:cacheColorHint="#00000000"
+            android:groupIndicator="@null" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:background="#000000"
+            android:orientation="vertical" >
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>
